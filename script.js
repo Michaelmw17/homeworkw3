@@ -36,7 +36,7 @@ function generatePassword() {
         // does user want special characters
         var hasSpecialChars = confirm("Include special characters in password?");
     } else {
-        alert("Please select a password between 8-128 characters");
+        alert("Please select a password between 8-80 characters");
     }
 
     // CONDITIONALS STATEMENTS
@@ -52,7 +52,7 @@ function generatePassword() {
     if (hasSpecialChars) {
         passwordCharacters += specialCharacters;
     } else {
-        alert("Error: Cannot generate a password!");
+        alert("Error! Cannot generate a password!");
     }
     for (var i = 0; i < pwLength; i++) {
         userPassword += passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
