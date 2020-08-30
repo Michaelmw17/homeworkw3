@@ -4,7 +4,8 @@ const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "0123456789";
 const specialCharacters = "!@#$%^&*()_|}{[]:;?><,./-=+~`";
-const pwLength = "";
+const pwLength = " ";
+
 
 // Writing password to the #password input
 function writePassword() {
@@ -15,8 +16,8 @@ function writePassword() {
 }
 
 function generatePassword() {
-    userPassword = "";
-    passwordCharacters = "";
+    userPassword = " ";
+    passwordCharacters = " ";
 
     // Asking user the length of password
     let pwLength = prompt(
@@ -37,8 +38,9 @@ function generatePassword() {
         var hasSpecialChars = confirm("Include special characters in password?");
     } else {
         alert("Please select a password between 8-80 characters");
-    }
+	}
 
+	
     // CONDITIONALS STATEMENTS
     if (isLowercase) {
         passwordCharacters += lowercase;
