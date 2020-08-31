@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -13,6 +15,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  text-align: center;
 }
 
 .wrapper {
@@ -63,7 +66,7 @@ header {
   display: block;
   width: 100%;
   background: #e7e9eb;
-  height: 2px;
+  height: 20px;
 }
 
 .card-footer::after {
@@ -112,6 +115,11 @@ header {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+#sticky-footer {
+  opacity: 40%;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 690px) {

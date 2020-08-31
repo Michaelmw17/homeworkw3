@@ -24,7 +24,7 @@ function generatePassword() {
         "Please select the length of your password. (Between 8 - 80 characters)"
     );
 
-    // Checking if password between 8 and 20 characters
+    // Checking if password between 8 and 80 characters
     if (pwLength >= 8 && pwLength <= 80) {
         password.length = pwLength;
 
@@ -33,14 +33,13 @@ function generatePassword() {
         // does user want uppercase letters
         var isUppercase = confirm("Include uppercase letters in password?");
         // does user want numbers
-        var isNumeric = confirm("Include numbers in password?");
+        var isNumbers = confirm("Include numbers in password?");
         // does user want special characters
         var hasSpecialChars = confirm("Include special characters in password?");
     } else {
         alert("Please select a password between 8-80 characters");
 	}
 
-	
     // CONDITIONALS STATEMENTS
     if (isLowercase) {
         passwordCharacters += lowercase;
@@ -48,7 +47,7 @@ function generatePassword() {
     if (isUppercase) {
         passwordCharacters += uppercase;
     }
-    if (isNumeric) {
+    if (isNumbers) {
         passwordCharacters += numbers;
     }
     if (hasSpecialChars) {
