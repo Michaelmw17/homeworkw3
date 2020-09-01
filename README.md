@@ -19,7 +19,7 @@ As a type of user, I want to password generator task so that I can achieve sercu
 #### Initial interface
 <hr>
 
-![](imgs/Screen Shot 2020-09-01 at 2.24.16 pm.png)
+![](imgs/ScreenShot.png)
 
 #### Final Interface
 
