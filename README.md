@@ -19,7 +19,7 @@ As a type of user, I want to password generator task so that I can achieve sercu
 #### Initial interface
 <hr>
 
-![](imgs/homeworkw3.png)
+<img src="./img/homeworkw3.png">
 
 #### Final Interface
 
