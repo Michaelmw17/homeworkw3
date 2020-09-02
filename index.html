@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&family=PT+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <header>
-            <h1>The Password Generator</h1>
-        </header>
-        <div class="card">
-            <div class="card-header">
-                <h2>Generate a Password</h2>
-            </div>
-            <div class="card-body">
-                <textarea readonly id="password" placeholder="Your generated password!"
-                    aria-label="Generated Password"></textarea>
-            </div>
-            <div class="card-footer">
-                    <!-- <button id="copy" class="btn">Copy to Clipboard</button> -->
-                <button id="generate" class="btn">Generate Password</button>
-            </div>
+      <header>
+        <h1>The Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generated password</h2>
         </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your generated password!"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+          <!-- <button id="copy" class="btn">Copy to Clipboard</button> -->
+        </div>
+      </div>
+      <div class="container">
         <footer id="sticky-footer">
-            <div class="container">
-            <small>Copyright &copy; Michael's Website</small>
+          <small>Copyright &copy; Michael's Website</small>
         </footer>
-            </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

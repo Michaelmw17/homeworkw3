@@ -20,11 +20,11 @@ function generatePassword() {
 
   // Asking user the length of password
   let pwLength = prompt(
-    "Please select the length of your password. (Between 8 - 80 characters)"
+    "Please select the length of your password. (Between 8 - 128 characters)"
   );
 
-  // Checking if password between 8 and 80 characters
-  if (pwLength >= 8 && pwLength <= 80) {
+  // Checking if password between 8 and 128 characters
+  if (pwLength >= 8 && pwLength <= 128) {
     password.length = pwLength;
 
     //does user want lowercase/uppercase letters numbers/special characters
@@ -33,7 +33,7 @@ function generatePassword() {
     var isNumbers = confirm("Include numbers in password?");
     var hasSpecialChars = confirm("Include special characters in password?");
   } else {
-    alert("Please select a password between 8-80 characters");
+    alert("Please select a password between 8 - 128 characters");
   }
 
   // Conditional Statements
