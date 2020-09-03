@@ -1,5 +1,5 @@
 var generateBtn = document.querySelector("#generate");
-// var copyBtn = document.querySelector("onCopyPressed");
+var copyBtn = document.querySelector("#onCopyPressed");
 
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -14,27 +14,22 @@ function writePassword() {
 
   passwordText.value = password;
   copyBtn.disable = false;
-};
+}
 
-// function onCopyPressed() {
-//   var passwordText = document.querySelector("#password");
-//   var passwordValue = passwordText.value;
+function onCopyPressed() {
+  var passwordText = document.querySelector("#password");
+  var passwordValue = passwordText.value;
+  console.log("Password in textbox " + passwordValue);
 
-//   generateBtn.select();
-
-//   document.execCommand("Copy");
-// };
-//   console.log("Password in textbox " + passwordValue);
-
-//   navigator.clipboard.writeText(passwordValue).then(
-//     function () {
-//       console.log("Async : copying to clipboard was successful!");
-//     },
-//     function (err) {
-//       console.error("async: Could not copy text: ", err);
-//     }
-//   );
-// }
+  navigator.clipboard.writeText(passwordValue).then(
+    function () {
+      console.log("Async : copying to clipboard was successful!");
+    },
+    function (err) {
+      console.error("async: Could not copy text: ", err);
+    }
+  );
+}
 
 function generatePassword() {
   userPassword = " ";
@@ -78,9 +73,10 @@ function generatePassword() {
       passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
   }
 
-    console.log(userPassword);
+  console.log(userPassword);
   return userPassword;
-};
+}
+console.log(copyBtn);
 // event listener for generate button
 generateBtn.addEventListener("click", writePassword);
-// copyBtn.addEventListener("click", onCopyPressed);
+copyBtn.addEventListener("click", onCopyPressed);
