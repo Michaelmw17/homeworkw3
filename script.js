@@ -40,7 +40,7 @@ function generatePassword() {
     "Please select the length of your password. (Between 8 - 128 characters)"
   );
 
-  // Checking if password between 8 and 128 characters
+  // Checking if password between 8 and 128 character's
   if (pwLength >= 8 && pwLength <= 128) {
     password.length = pwLength;
 
