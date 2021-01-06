@@ -1,15 +1,14 @@
-# TITLE
-Password Generator
+# Password Generator
 
 ## Contents
-<p>
+
 The app is composed of 3 pages, index.html, javascript.js and style.css. It also has images in the img folder
-</p>
+
 
 ## User Story
-<p>
-As a type of user, I want to password generator task so that I can achieve sercure password.
-</p>
+
+As a type of user, I want to password generator task so that I can achieve sercure password with mutliple was of entry and encrypting for all my password needs.
+
 
 ## Built With
 
@@ -21,25 +20,21 @@ As a type of user, I want to password generator task so that I can achieve sercu
 
 <img src="./img/homeworkw3.png">
 
-#### Final Interface
-
--
-
 
 ### Licence
 
 Create new file on GitHUB=> name it License.md => select license from the right button
 
 ### Link to the App
-<a href=".">https://michaelmw17.github.io/homeworkw3/</a><hr>
+<a href="https://michaelmw17.github.io/homeworkw3">Password Generator</a><hr>
 <hr>
 
-## Authors
+## Questions
 
-* **FIRST LAST** - 
+_Michael Watt_
 
-michaaelmw17@outlook.com
+- [Github!](https://github.com/Michaelmw17)
+- [LinkedIn!](https://www.linkedin.com/in/michael-watt-6a76961b3/)
+- [Portfolio!](http://michaelmw17.github.io/)
+- Email:(michaelmw17@outlook.com)
 
-## Acknowledgments
-
-* 
