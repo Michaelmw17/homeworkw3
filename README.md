@@ -23,7 +23,7 @@ As a type of user, I want to password generator task so that I can achieve sercu
 
 ### Licence
 
-Create new file on GitHUB=> name it License.md => select license from the right button
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ### Link to the App
 <a href="https://michaelmw17.github.io/homeworkw3">Password Generator</a><hr>
